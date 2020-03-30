@@ -1,0 +1,138 @@
+footer {
+    background-color: aliceblue;
+    color: darkgreen;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 69%;
+    
+}
+
+table, td, th {
+    font-weight: 100;
+    border-top: darkblue;
+    border-left: darkblue;
+    border-right: darkblue;
+    border-bottom: darkblue;
+    border-collapse: collapse;
+
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+
+    text-align: left;
+}
+
+body {
+    text-align: center;
+}
+
+p, ul, ol {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+#first {
+    background-color: lightcoral;
+}
+
+#second {
+    background-color: lightgreen;
+}
+
+#third {
+    position: absolute;
+    top: 28px;
+    left: 56px;
+    width: 200px;
+    background-color: lightskyblue;
+}
+
+div {
+    position: relative;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 200px;
+}
+
+#emptyrow {
+    height: 26px;
+}
+
+#city-photo {
+    width: 100%;
+    height: 200px;
+}
+
+#weather {
+    width: 5%;
+    height: 250px;
+    left: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+#airplane-photo {
+    width: 100%;
+}
+
+#airport {
+    position: relative;
+    display: inline-block;
+    height: 250px;
+}
+
+#vertical-block {
+    font-weight: bold;
+    font-size: 25px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    width: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    display: inline-block;
+    height: 250px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+#return {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
