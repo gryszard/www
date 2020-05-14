@@ -1,0 +1,250 @@
+footer {
+    margin: auto;
+    background-color: aliceblue;
+    color: green;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 75%;
+}
+
+.city-view {
+    height: 400px;
+    width: 100%;
+}
+
+.photo-src {
+    position: relative;
+    text-align: left;
+    top: -415px;
+    padding-left: 5px;
+    font-size: 11px;
+}
+
+div {
+    margin-bottom: -20px;
+}
+
+.flight-info {
+    font-size: 30px;
+    width: 40%;
+    margin: auto;
+}
+
+#depart {
+    text-align: left;
+    width: 55%;
+    float: left;
+}
+
+#arrive {
+    text-align: right;
+    float: right;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+    display: block;
+}
+
+#airplane {
+    width: 40%;
+    margin: auto;
+}
+
+/* weather display */
+/* weather display */
+/* weather display */
+
+.depart-weather {
+    float: right;
+    position: relative;
+    scale: 33%;
+    margin: -50px;
+}
+
+.arrive-weather {
+    float: left;
+    position: relative;
+    scale: 33%;
+    margin: -50px;
+}
+
+.depart-temperature {
+    float: right;
+    text-align: right;
+    width: 20%;
+}
+
+.arrive-temperature {
+    float: left;
+    text-align: left;
+    width: 20%;
+}
+
+/* links */
+/* links */
+/* links */
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: orchid;
+}
+
+/* table */
+/* table */
+/* table */
+
+table {
+    width: 75%;
+    margin: auto;
+}
+
+table, td {
+    text-align: center;
+    font-size: 23px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+caption {
+    font-size: 30px;
+    background-color: cornsilk;
+    font-weight: bolder;
+}
+
+#back-link {
+    position: sticky;
+    top: 0px;
+    left: 5px;
+    margin-left: -5000px;
+}
+
+/* paragraph */
+/* paragraph */
+/* paragraph */
+
+#first-p {
+    margin: auto;
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: dotted;
+    border-color: black;
+    background-color: green;
+    color: white;
+}
+
+#second-p {
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 75%;
+    border-style: double;
+    border-color: black;
+    background-color: darkred;
+    color: lightyellow;
+}
+
+#flight-highlight {
+    position: relative;
+    margin: auto;
+    width: 75%;
+    background-color: gold;
+    color: goldenrod;
+    top: 157px;
+    height: 28px;
+    z-index: -1;
+    font-size: 27px;
+}
+
+/* weather icons */
+/* weather icons */
+/* weather icons */
+
+/* row 1 col 1 on svg */
+#cloud {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -107px -236px;
+    background-size: 1000px;
+}
+
+/* row 1 col 2 on svg */
+#sun {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -266px -236px;
+    background-size: 1000px;
+}
+
+/* row 1 col 3 on svg */
+#sun-cloud {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -428px -236px;
+    background-size: 1000px;
+}
+
+/* row 1 col 5 on svg */
+#sun-cloud-rain {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -761px -236px;
+    background-size: 1000px;
+}
+
+/* row 2 col 1 on svg */
+#thunder {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -107px -418px;
+    background-size: 1000px;
+}
+
+/* row 2 col 2 on svg */
+#rain {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -266px -418px;
+    background-size: 1000px;
+}
+
+/* row 2 col 3 on svg */
+#snow {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -428px -418px;
+    background-size: 1000px;
+}
+
+/* row 2 col 4 on svg */
+#wind {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -597px -418px;
+    background-size: 1000px;
+}
+
+/* row 3 col 1 on svg */
+#snow-rain {
+    width: 150px;
+    height: 181px;
+    background: url(weather.svg) -107px -590px;
+    background-size: 1000px;
+}

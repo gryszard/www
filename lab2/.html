@@ -3,57 +3,58 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Pierwsze pLOTy za płoty</title>
+    <title>lot main page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <article>
-    <h1>Lista pLOTów:</h1>
+    <h1>welcome on the main page</h1>
 
-    <img src="logo.jpg" alt="logo firmy" id="logo">
+    <img src=logo.png alt="company logo"/>
 
-    <p id="first">Poniżej akapit „Poniżej tabelka.“.</p>
-    <p id="second">Poniżej tabelka.</p>
-
-    <div>
-        <p id="third">Ale super pLOT!</p>
-        <table>
+    <p id=first-p>some text followed by some text</p>
+    <p id=second-p>some text followed by a crucial table</p>
+    <div id=flight-highlight>SUPER FLIGHT! SUPER FLIGHT! SUPER FLIGHT! SUPER FLIGHT! SUPER FLIGHT!</div>
+    <table>
+        <caption>flights' list</caption>
+        <thead>
             <tr>
-                <th>nr_pLOTu</th>
-                <th>skąd</th>
-                <th>dokąd</th>
-                <th>data</th>
-                <th>godzina</th>
+                <th>flight number</th>
+                <th>from</th>
+                <th>to</th>
+                <th>date</th>
+                <th>time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href=flight.html>1</a></td>
+                <td>Warsaw</td>
+                <td>London</td>
+                <td>12.08.2020</td>
+                <td>7:13</td>
             </tr>
             <tr>
-                <td><a href="flight1.html">1</a></td>
-                <td>Warszawa</td>
+                <td><a href=flight.html>2</a></td>
+                <td>London</td>
                 <td>Berlin</td>
-                <td>12.04.2020</td>
-                <td>5:56</td>
+                <td>12.08.2020</td>
+                <td>17:13</td>
             </tr>
-            <tr><td id="emptyrow" colspan=5></td></tr>
             <tr>
-                <td><a href="flight2.html">2</a></td>
+                <td><a href=flight.html>3</a></td>
                 <td>Berlin</td>
-                <td>Londyn</td>
-                <td>12.04.2020</td>
-                <td>13:52</td>
+                <td>Warsaw</td>
+                <td>14.08.2020</td>
+                <td>12:00</td>
             </tr>
-            <tr>
-                <td><a href="flight3.html">3</a></td>
-                <td>Londyn</td>
-                <td>Warszawa</td>
-                <td>12.04.2020</td>
-                <td>17:16</td>
-            </tr>
-        </table>
-    </div>
+        </tbody>
+    </table>
+
     <footer>
-        <address>©Ryszard Gromek (rg406150@students.mimuw.edu.pl)</address>
+        author: Ryszard Gromek
     </footer>
-    </article>
+    
 </body>
 </html>
