@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>lot main page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class=popup-fullsize>Registration succesful!</div>
+    <div class=container>
+
+        <div class=menu-col>
+            <ul class=menu>
+                <li><a href=.html>main page</a></li>
+                <li><a href=#flight-table>flights</a></li>
+                <ul class=submenu>
+                    <li><a href=flight.html>flight number 1</a></li>
+                    <li><a href=flight.html>flight number 2</a></li>
+                    <li><a href=flight.html>flight number 3</a></li>
+                    <li><a href=flight.html>flight number 4</a></li>
+                    <li><a href=flight.html>flight number 5</a></li>
+                </ul>
+                <li><a href=.html>pilots</a></li>
+                <li><a href=.html>tickets</a></li>
+                <li><a href=.html>contact</a></li>
+            </ul>
+        </div>
+
+        <div class=main-col>
+            <h1>welcome on the main page</h1>
+        
+            <img src=logo.png alt="company logo"/>
+        
+            <p id=first-p>some text followed by some text</p>
+            <p id=second-p>some text followed by a crucial table</p>
+            <table id=flight-table>
+                <caption>flights' list</caption>
+                <thead>
+                    <tr>
+                        <th>flight number</th>
+                        <th>from</th>
+                        <th>to</th>
+                        <th>date</th>
+                        <th>time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href=flight.html>1</a></td>
+                        <td>Warsaw</td>
+                        <td>London</td>
+                        <td>12.08.2020</td>
+                        <td>7:13</td>
+                    </tr>
+                    <tr>
+                        <td><a href=flight.html>2</a></td>
+                        <td>London</td>
+                        <td>Berlin</td>
+                        <td>12.08.2020</td>
+                        <td>17:13</td>
+                    </tr>
+                    <tr id=flight-highlight>
+                        <!--<div id=flight-highlight></div>-->
+                        <td><a href=flight.html>3</a></td>
+                        <td>Berlin</td>
+                        <td>Warsaw</td>
+                        <td>14.08.2020</td>
+                        <td>12:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            <footer>
+                author: Ryszard Gromek
+            </footer>
+        </div>
+
+        <div class=flight-col>
+            <table id=delay-table>
+                <caption>delayed flights</caption>
+                <thead>
+                    <tr>
+                        <th>flight number</th>
+                        <th>from</th>
+                        <th>to</th>
+                        <th>date</th>
+                        <th>time</th>
+                        <th>delay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id=delay-small>
+                        <td><a href=flight.html>1</a></td>
+                        <td>Warsaw</td>
+                        <td>London</td>
+                        <td>12.08.2020</td>
+                        <td>7:13</td>
+                        <td>5 min</td>
+                    </tr>
+                    <tr id=cancelled>
+                        <td><a href=flight.html>2</a></td>
+                        <td>London</td>
+                        <td>Berlin</td>
+                        <td>12.08.2020</td>
+                        <td>17:13</td>
+                        <td>cancelled</td>
+                    </tr>
+                    <tr id=delay-big>
+                        <td><a href=flight.html>3</a></td>
+                        <td>Berlin</td>
+                        <td>Warsaw</td>
+                        <td>14.08.2020</td>
+                        <td>12:00</td>
+                        <td>450 min</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class=register>
+            <h3>register a flight</h3>
+            <select title=from>
+                <option value=from>from</option>
+                <option value=Waraw>Warsaw</option>
+                <option value=London>London</option>
+                <option value=Berlin>Berlin</option>
+            </select>
+            <select title=to>
+                <option value=to>to</option>
+                <option value=Waraw>Warsaw</option>
+                <option value=London>London</option>
+                <option value=Berlin>Berlin</option>
+            </select>
+            <br>
+            <input type=text title=fullname id=flight-passenger value=fullname>
+            <input type=date title=date id=flight-date>
+            <br>
+            <button>clear</button>
+            <button>send</button>
+        </div>
+    </div>
+
+
+
+
+    
+    
+</body>
+</html>
